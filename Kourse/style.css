@@ -1,0 +1,171 @@
+body {
+  background-image: url(img/background.png);
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+nav .container {
+  margin-top: 58px;
+  display: flex;
+  align-items: center;
+  font-family: "Source Sans 3", system, -apple-system, ".SFNSText-Regular", "San Francisco",
+    "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+
+.nav-brand {
+  width: 20%;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.nav-list-menu {
+  width: 60%;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.nav-menu {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255, 0.8);
+}
+.nav-menu-active {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.nav-ctas {
+  width: 20%;
+  display: flex;
+  justify-content: end;
+}
+
+.sign-up {
+  background-color: rgb(255, 255, 255, 0.1);
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  font-family: "Poppins", system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+    "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+
+.hero-left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+}
+
+.hero-right {
+  width: 40%;
+  display: flex;
+}
+
+.hero-headline {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hero-header {
+  width: 653px;
+  margin: 0;
+  font-size: 54px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 81px;
+}
+
+.hero-subheader {
+  width: 553px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255, 0.6);
+  line-height: 32px;
+}
+
+.hero-ctas {
+  display: flex;
+}
+
+.primary-ctas {
+  text-decoration: none;
+  background-color: #ff5c00;
+  padding: 12px 17px;
+  border: none;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.secondary-ctas {
+  text-decoration: underline;
+  padding: 12px 17px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff5c00;
+}
+
+.hero-image {
+  width: 200%;
+  margin: auto;
+}
+
+.features {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 96px;
+  font-family: "Poppins", system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+    "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+
+.feature {
+  display: flex;
+  gap: 25px;
+}
+
+.feature-icon {
+  width: min-content;
+  height: auto;
+}
+
+.feature-description {
+  width: 90%;
+}
+
+.feature-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 30px;
+}
+
+.feature-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255, 0.6);
+  line-height: 30px;
+}
